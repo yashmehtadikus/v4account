@@ -16,6 +16,7 @@ mysql_query("set names utf8");
 
 function db () {
 $conn = mysqli_connect (DATABASE_HOSTNAME,DATABASE_USERNAME,DATABASE_PASSWORD,DATABASE_NAME);
+
 return $conn;
 }
 
